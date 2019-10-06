@@ -27,6 +27,6 @@ public class BlockModule extends ReactContextBaseJavaModule {
 
     @ReactMethod
     public void method(String string, Callback cb) {
-        cd.invoke(string)
+        cb.invoke(string);
     }
 }
